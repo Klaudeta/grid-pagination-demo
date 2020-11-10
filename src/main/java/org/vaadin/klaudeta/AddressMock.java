@@ -36,7 +36,7 @@ public class AddressMock {
 
 		Random rand = new Random();
 
-		for (int i = 0; i < 278; i++) {
+		for (int i = 0; i < 1000; i++) {
 			int nameAddressIndex = rand.nextInt(7);
 			int addressIndex = rand.nextInt(7);
 			int countryIndex = rand.nextInt(3);
